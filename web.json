@@ -1,12 +1,12 @@
 {
-  "greeting_text": "おかえり！",
-  "background": "#171928",
-  "foreground": "#c7b7c7",
+  "greeting_text": "hi.",
+  "background": "#151515",
+  "foreground": "#e8e3e3",
   "search_engine": "https://duckduckgo.com/?q=",
   "favourites": [
     {
-      "key": ":fb",
-      "url": "http://facebook.com"
+      "key": ":dc",
+      "url": "http://discord.com/app"
     },
     {
       "key": ":tt",
@@ -25,16 +25,16 @@
       "url": "http://github.com"
     },
     {
-      "key": ":ks",
-      "url": "http://kaskus.co.id"
+      "key": ":lc",
+      "url": "http://lichess.org"
     },
     {
-      "key": ":tp",
-      "url": "http://tokopedia.com"
+      "key": ":ba",
+      "url": "http://betteranime.net"
     },
     {
       "key": ":em",
-      "url": "http://gmail.com"
+      "url": "http://mail.proton.me"
     }
   ]
 }
