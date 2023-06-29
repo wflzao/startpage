@@ -6,35 +6,39 @@
   "favourites": [
     {
       "key": ":dc",
-      "url": "http://discord.com/app"
+      "url": "https://discord.com/app"
     },
     {
       "key": ":ws",
-      "url": "http://web.whatsapp.com"
+      "url": "https://web.whatsapp.com"
     },
     {
       "key": ":ig",
-      "url": "http://instagram.com"
+      "url": "https://instagram.com"
     },
     {
       "key": ":yt",
-      "url": "http://youtu.be"
+      "url": "https://youtu.be"
     },
     {
       "key": ":gh",
-      "url": "http://github.com"
+      "url": "https://github.com"
     },
     {
       "key": ":lc",
-      "url": "http://lichess.org"
+      "url": "https://lichess.org"
     },
     {
       "key": ":ai",
-      "url": "http://chat.openai.com"
+      "url": "https://chat.openai.com"
     },
     {
       "key": ":em",
-      "url": "http://mail.proton.me"
+      "url": "https://mail.proton.me"
+    },
+    {
+      "key": ":zl",
+      "url": "https://singlelogin.me"
     }
   ]
 }
