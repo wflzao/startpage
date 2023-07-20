@@ -69,23 +69,23 @@ $(function () {
     $("form").on("submit", function (e) {
         e.preventDefault();
         e.stopPropagation();
-
+        
         if (search.test(input)) {
-            link = conf.search_engine + encodeURIComponent(input.replace(/^:s /g, ""));
+            link = conf.search_engine + encodeURIComponent(input.replace(/^:s /ig, ""));
         } else if (site.test(input)) {
-            link = input.replace(/^:u /g, "");
+            link = input.replace(/^:u /ig, "");
         } else {
             $.each(conf.favourites, function () {
-                if (this.key === input) {
+                if (this.key.toLowerCase() === input.toLowerCase()) {
                     link = this.url;
                 }
             });
         }
-
-        if (!~link.indexOf("http")) {
+        
+        if (!link.includes("http")) {
             link = "http://" + link;
         }
-
+        
         window.location.href = link;
         $("#box").blur();
         $("#box").val("");
