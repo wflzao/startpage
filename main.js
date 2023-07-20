@@ -15,9 +15,9 @@ var stylishHTML = function (conf) {
 
 $(function () {
     var conf = {};
-    var notfavs = new RegExp("^:[u|s] (.*)$");
-    var search = new RegExp("^:s (.*)$");
-    var site = new RegExp("^:u (.*)$");
+    var notfavs = new RegExp("^:[u|s] (.*)$", "i");
+    var search = new RegExp("^:s (.*)$"), "i";
+    var site = new RegExp("^:u (.*)$", "i");
     var input = $("#box").val();
 
     $.getJSON("web.json", function (object) {
