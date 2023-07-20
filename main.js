@@ -15,7 +15,7 @@ var stylishHTML = function (conf) {
 
 $(function () {
     var conf = {};
-    var notfavs = new RegExp("^:[u|s] (.*)$";
+    var notfavs = new RegExp("^:[u|s] (.*)$");
     var search = new RegExp("^:[sS] (.*)$");
     var site = new RegExp("^:[uU] (.*)$");
     var input = $("#box").val();
