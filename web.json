@@ -1,6 +1,7 @@
 {
   "greeting_text": "hi.",
-  "background": "#151515",
+  "background_old": "#151515",
+  "background": "#11111b",
   "foreground": "#e8e3e3",
   "search_engine": "https://duckduckgo.com/?q=",
   "favourites": [
