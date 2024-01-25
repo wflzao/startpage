@@ -20,15 +20,15 @@
     },
     {
       "key": ":yt",
-      "url": "https://youtu.be"
+      "url": "https://youtube.com"
     },
     {
       "key": ":gh",
       "url": "https://github.com"
     },
     {
-      "key": ":lc",
-      "url": "https://lichess.org"
+      "key": ":sk",
+      "url": "https://skool.com"
     },
     {
       "key": ":ai",
@@ -39,8 +39,12 @@
       "url": "https://mail.proton.me"
     },
     {
-      "key": ":zl",
-      "url": "https://singlelogin.re"
+      "key": ":nt",
+      "url": "https://notion.so"
+    },
+    {
+      "key": ":un",
+      "url": "https://universonarrado.com.br/aluno"
     }
   ]
 }
