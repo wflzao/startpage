@@ -45,6 +45,10 @@
     {
       "key": ":un",
       "url": "https://universonarrado.com.br/aluno"
+    },
+    {
+      "key": ":mw",
+      "url": "https://bmov.vercel.app"
     }
   ]
 }
