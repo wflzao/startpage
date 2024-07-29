@@ -1,10 +1,8 @@
 {
   "greeting_text": "hi.",
-  "background_old": "#151515",
-  "background": "#1e1e2e",
-  "foreground_old": "#e8e3e3",
-  "foreground": "#cdd6f4",
-  "search_engine": "https://www.startpage.com/do/dsearch?q=",
+  "background": "#1b1b1b",
+  "foreground": "#e8e3e3",
+  "search_engine": "https://duckduckgo.com/?q=",
   "favourites": [
     {
       "key": ":dc",
